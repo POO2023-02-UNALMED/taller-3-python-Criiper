@@ -13,7 +13,6 @@ class TV:
     def __init__(self, marca, estado):
         self.marca = marca
         self.estado = estado
-        numTV += 1
 
     def turnOn(self):
         self.estado = True
