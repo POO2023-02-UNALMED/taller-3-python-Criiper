@@ -9,7 +9,7 @@ class TV:
         self.volumen = 1
         self.control = 0
 
-        cls.numTV += 1
+        TV.numTV += 1
 
     def turnOn(self):
         self.estado = True
