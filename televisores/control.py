@@ -12,6 +12,12 @@ class Control:
     def getTv(self):
         return self.tv
     
+    def setVolumen(self, volumen):
+        self.tv.setVolumen(volumen)
+    
+    def setCanal(self, canal):
+        self.tv.setCanal(canal)
+    
     def turnOn(self):
         self.tv.turnOn()
 
