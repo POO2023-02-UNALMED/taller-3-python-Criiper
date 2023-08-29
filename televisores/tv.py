@@ -1,20 +1,13 @@
 class TV:
     numTV = 0
 
-    def __init__(self, marca, estado, control):
+    def __init__(self, marca, estado):
         self.marca = marca
         self.canal = 1
         self.precio = 500
         self.estado = estado
         self.volumen = 1
-        self.control = control
-        
-
-    def __init__(self, marca, estado):
-        self.marca = marca
-        self.estado = estado
-
-        numTV = numTV+1
+        self.control = 0
 
     def turnOn(self):
         self.estado = True
