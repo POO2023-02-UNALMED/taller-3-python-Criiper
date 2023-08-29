@@ -14,6 +14,8 @@ class TV:
         self.marca = marca
         self.estado = estado
 
+        numTV = numTV+1
+
     def turnOn(self):
         self.estado = True
 
