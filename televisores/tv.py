@@ -36,6 +36,9 @@ class TV:
         if (self.volumen > 0 and self.volumen <= 7 and self.estado == True):
             self.volumen -= 1
 
+    def setMarca(self, marca):
+        self.marca = marca
+
     def setCanal(self, canal):
         self.canal = canal
     
@@ -47,6 +50,9 @@ class TV:
     
     def setControl(self, control):
         self.control = control
+    
+    def getMarca(self):
+        return self.marca
     
     def getCanal(self):
         return self.canal
